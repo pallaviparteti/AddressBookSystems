@@ -17,6 +17,7 @@ public class BaseClass {
 
 		AddressBookSystemJDBC addressBookSystemJdbc = new AddressBookSystemJDBC();
 		addressBookSystemJdbc.retrieveData();
+		addressBookSystemJdbc.updateContactPersonInformationData();
 
 	}
 
